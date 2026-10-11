@@ -19,3 +19,10 @@ links.forEach(link => {
     });
 
 });
+
+let Email=document.getElementById("Email");
+
+function enteremail() {
+    alert("Thank you "+Email.value +" for joining our Family !")
+    alert("good day !");
+}
